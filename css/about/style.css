@@ -324,6 +324,9 @@ header {
 }
 
 @media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+  }
   .header__menu {
     display: none;
   }

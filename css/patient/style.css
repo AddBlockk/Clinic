@@ -260,4 +260,7 @@ header {
     margin-bottom: 50px;
     text-align: center;
   }
+  .footer-container {
+    flex-direction: column;
+  }
 }

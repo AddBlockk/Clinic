@@ -758,7 +758,6 @@ button {
 
   .footer-container {
     flex-direction: column;
-    max-width: 600px;
   }
   .container-competencies-item {
     height: auto;

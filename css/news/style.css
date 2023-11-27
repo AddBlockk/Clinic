@@ -265,6 +265,10 @@ header {
 }
 
 @media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    max-width: 600px;
+  }
   .header__menu {
     display: none;
   }

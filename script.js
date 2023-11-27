@@ -8,3 +8,7 @@ function init() {
 }
 
 ymaps.ready(init);
+
+document.querySelector(".burger-menu").addEventListener("click", function () {
+  document.querySelector(".header__menu").classList.toggle("active");
+});

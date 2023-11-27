@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Главная</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/patient/style.css" />
   </head>
@@ -13,8 +12,8 @@
       <header>
         <div class="container">
           <div class="header__body">
-            <a href="/">
-              <img src="/icons/logo.svg" class="header__logo" />
+            <a href="/" class="header__logo">
+              <img src="/icons/logo.svg" />
             </a>
             <nav class="header__menu">
               <ul class="header__list">
@@ -37,7 +36,7 @@
               </ul>
             </nav>
             <span class="burger-menu">
-              <a href="/"><img src="/icons/icon _menu_.svg" alt="menu" /></a>
+              <img src="/icons/icon _menu_.svg" alt="menu" />
             </span>
           </div>
         </div>
@@ -46,6 +45,26 @@
       <!-- MainInfo Section -->
       <div class="mainInfo-section">
         <div class="container">
+          <div class="modal" style="transform: translate(0px, -100%)">
+            <div class="header__menu-modal">
+              <ul class="header__menu-items">
+                <li><a href="/" class="header__menu-item">Главная</a></li>
+                <li>
+                  <a href="/about.html" class="header__menu-item"
+                    >Об учреждении</a
+                  >
+                </li>
+                <li>
+                  <a href="/news.html" class="header__menu-item">Новости</a>
+                </li>
+                <li>
+                  <a href="/patient.html" class="header__menu-item"
+                    >Пациентам</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="container-mainInfo">
             <div class="container-info">
               <div>
@@ -90,5 +109,6 @@
         </div>
       </footer>
     </div>
+    <script src="/scripts/scriptBurger.js"></script>
   </body>
 </html>

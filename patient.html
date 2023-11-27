@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/patient/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header__body">
+            <a href="/">
+              <img src="/icons/logo.svg" class="header__logo" />
+            </a>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li class="header__text">
+                  <a href="/" class="header__text-link">Главная</a>
+                </li>
+                <li class="header__text">
+                  <a href="/about.html" class="header__text-link"
+                    >Об учреждении</a
+                  >
+                </li>
+                <li class="header__text">
+                  <a href="/news.html" class="header__text-link">Новости</a>
+                </li>
+                <li class="header__text">
+                  <a href="/patient.html" class="header__text-link"
+                    >Пациентам</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <span class="burger-menu">
+              <a href="/"><img src="/icons/icon _menu_.svg" alt="menu" /></a>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <!-- MainInfo Section -->
+      <div class="mainInfo-section">
+        <div class="container">
+          <div class="container-mainInfo">
+            <div class="container-info">
+              <div>
+                <h1 class="patient-title">Пациентам</h1>
+              </div>
+            </div>
+            <p>Наше местоположение:</p>
+            <p>
+              Аптека № 1, г. Астрахань, ул. Яблочкова, д. 36; телефон: 36-00-61
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="map-test" class="map"></div>
+      <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+      <script src="script.js"></script>
+
+      <footer>
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-container-paragraph">
+              <p class="footer-paragraph">
+                О возможных противопоказаниях проконсультируйтесь с нашими
+                специалистами. Информация на сайте не является публичной
+                офертой. Лицензия серии МЗ АО ЛО № 30-02-001164 от 09.12.2020
+              </p>
+            </div>
+            <a href="/" class="footer-item-conteiner">
+              <h3>
+                Консультации по всем вопросам <br />
+                (8512) 34-38-21
+              </h3>
+            </a>
+            <div class="footer-container-paragraph">
+              <p class="footer-paragraph">
+                © 2023 Государственное автономное учреждение Астраханской
+                области «Астраханские аптеки». Государственное автономное
+                учреждение Астраханской области «Астраханские аптеки».
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
